@@ -1,0 +1,3 @@
+Como el modulo ADC es de 12 bits y el timer del pwm de 16 bits, se opto por
+setear el valor del pwm por el valor del adc multiplicado por 16 para obtener el rango
+de 16 bits del pwm y asi lograr tener el rango completo de brillo del led.

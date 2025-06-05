@@ -99,7 +99,7 @@ void task_pwm_update(void *parameters)
 				step = step * -1;
 			}
 		}
-		shared_data->pwm_active = shared_data->pwm_active + step;
+		//shared_data->pwm_active = shared_data->pwm_active + step;
 	}
 }
 

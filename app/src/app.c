@@ -173,7 +173,7 @@ void app_update(void)
 				task_dta_list[index].WCET = cycle_counter_time_us;
 			}
 
-
+			shared_data.pwm_active = shared_data.adc_value*16;
 			/* Print out: Cycle Counter */
 			//LOGGER_LOG(" %s: %lu - %s: %lu uS\r\n", GET_NAME(cycle_counter), cycle_counter, GET_NAME(cycle_counter_time_us), cycle_counter_time_us);
 			//LOGGER_LOG(" %s: %lu uS\r\n", GET_NAME(g_app_time_us), g_app_time_us);
